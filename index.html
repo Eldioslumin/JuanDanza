@@ -1,34 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name</title>
-  <style>
-    body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; line-height: 1.6; }
-    h1, h2 { color: #222; }
-    .project { border: 1px solid #ddd; padding: 16px; margin-bottom: 16px; border-radius: 10px; }
-    a { text-decoration: none; color: #0b57d0; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Danza</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            background-color: #f7f9fc;
+            color: #222;
+        }
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+        h2 {
+            margin-top: 40px;
+            font-size: 1.5rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .links a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0077cc;
+        }
+        .project {
+            margin-bottom: 15px;
+        }
+        .project a {
+            font-weight: 600;
+            color: #333;
+            text-decoration: none;
+        }
+        .project p {
+            margin: 5px 0 0;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-  <h1>Your Name</h1>
-  <p>Master’s student in Cognitive Systems | NLP | LLM evaluation</p>
 
-  <h2>About</h2>
-  <p>Short paragraph about who you are, your interests, and what you work on.</p>
+<div class="container">
 
-  <h2>Projects</h2>
-  <div class="project">
-    <h3>Project title</h3>
-    <p>One short description of the project.</p>
-    <p><a href="#">GitHub</a> | <a href="#">Demo</a></p>
-  </div>
+    <h1>Juan Danza</h1>
+    <p>Cognitive Systems MSc student at the University of Potsdam. Background in legal, literary, and audiovisual translation, with a focus on Natural Language Processing and AI systems.</p>
 
-  <h2>Academic Experience</h2>
-  <p>University, degree, relevant research, coursework, assistantships, etc.</p>
+    <div class="links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="mailto:your@email.com">Email</a>
+    </div>
 
-  <h2>Contact</h2>
-  <p>Email | GitHub | LinkedIn</p>
+    <h2>About</h2>
+    <p>
+        I work at the intersection of language and computation. My interests include NLP, LLM evaluation, and building systems that combine linguistic insight with machine learning. I also have a background as a sworn legal translator, which informs my work with language precision and structure.
+    </p>
+
+    <h2>Projects</h2>
+
+    <div class="project">
+        <a href="#">MAGIC – Multi-Agent Feedback System</a>
+        <p>Framework for automated essay evaluation using multiple LLM-based agents and structured feedback pipelines.</p>
+    </div>
+
+    <div class="project">
+        <a href="#">AES Evaluation Toolkit</a>
+        <p>Tools for evaluating essay scoring models using QWK, RMSE, and human-aligned metrics.</p>
+    </div>
+
+    <div class="project">
+        <a href="#">LLM Reasoning Visualizer</a>
+        <p>Interactive educational page explaining reasoning techniques like CoT, PPO, and reward models.</p>
+    </div>
+
+    <h2>Skills</h2>
+    <p>
+        Python (PyTorch, pandas, scikit-learn), NLP, LLM systems, translation (legal, literary, audiovisual), Git, LaTeX.
+    </p>
+
+</div>
+
 </body>
 </html>
